@@ -4,8 +4,7 @@ from datetime import datetime, timezone
 
 from compute.league_leader_criteria import LeagueLeaderCriteria
 from compute.utils import get_leader_categories_with_criteria
-from db.models.league_leaders import LeagueLeadersRegular
-from db.models.player_stats import PlayerStatsRegular
+from hfdb.models import LeagueLeadersRegular, PlayerStatsRegular
 
 dt = datetime.now(timezone.utc)
 utc_time = dt.replace(tzinfo=timezone.utc)

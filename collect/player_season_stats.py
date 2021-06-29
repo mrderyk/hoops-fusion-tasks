@@ -2,7 +2,7 @@ import peewee
 
 from enum import Enum
 from utils import compute_key_for_player, compute_stats_key_for_player, fetch
-from db.models.player_stats import PlayerStatsPlayoff, PlayerStatsRegular
+from hfdb.models import PlayerStatsPlayoff, PlayerStatsRegular
 
 class StatType(Enum):
   REGULAR = "regular"

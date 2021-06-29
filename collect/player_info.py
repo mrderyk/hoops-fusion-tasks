@@ -1,7 +1,7 @@
 import hashlib
 import peewee
 
-from db.models.player import Player
+from hfdb.models.player import Player
 from utils import fetch, compute_key_for_player
 
 ROSTER_STATUS_TO_CODE = {

@@ -1,4 +1,4 @@
-#!/Users/deryk/Desktop/Ventures/Coding/Web/hoops-fusion-players/env/bin/python3.9
+#!/Users/deryk/Desktop/Ventures/Coding/Web/hoops-fusion-tasks/env/bin/python3.9
 
 import datetime
 import sys
