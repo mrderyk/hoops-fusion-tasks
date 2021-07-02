@@ -5,4 +5,4 @@ peewee==3.14.4
 psycopg2==2.9.1
 requests==2.25.1
 urllib3==1.26.5
-git+https://github.com/mrderyk/hfdb.git@0.0.1#egg=hfdb
+git+https://github.com/mrderyk/hfdb.git@0.0.4#egg=hfdb
